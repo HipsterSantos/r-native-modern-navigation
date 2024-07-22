@@ -1,79 +1,71 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
+### README.md (Russian)
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+```markdown
+# Современная Навигация в React Native
 
-## Step 1: Start the Metro Server
+Добро пожаловать в проект Современная Навигация в React Native! Этот репозиторий демонстрирует различные современные техники навигации в React Native. Мы стремимся предоставить исчерпывающее руководство и примеры для реализации различных навигационных шаблонов, обеспечивая бесшовный и интуитивно понятный пользовательский опыт.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Структура Проекта
 
-To start Metro, run the following command from the _root_ of your React Native project:
+Проект структурирован на несколько веток, каждая из которых демонстрирует определенный тип навигации. Существует до шести типов навигации, каждый из которых находится в своей ветке. Ветки названы численно для легкой идентификации.
 
-```bash
-# using npm
-npm start
+## URL Репозитория
 
-# OR using Yarn
-yarn start
-```
+Вы можете найти репозиторий [здесь](https://github.com/HipsterSantos/r-native-modern-navigation).
 
-## Step 2: Start your Application
+## Типы Навигации
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+1. **Стековая Навигация**
+   - Демонстрирует использование навигации на основе стека, где экраны накладываются друг на друга.
+   - Позволяет пользователям перемещаться вперед и назад по стеку.
+   - ![Стековая Навигация](public/original-86c3d25ab24c427cc552e384b12281a0.png)
 
-### For Android
+2. **Навигация по Вкладкам**
+   - Реализует навигацию по вкладкам с вкладками внизу или вверху экрана.
+   - Пользователи могут переключаться между различными вкладками для просмотра различных разделов приложения.
+   - ![Навигация по Вкладкам](public/original-87d83e2805f5b07d6f0b4eefacd1a31d.png)
 
-```bash
-# using npm
-npm run android
+3. **Навигация через Боковое Меню**
+   - Показывает боковое меню, которое выдвигается слева или справа.
+   - Пользователи могут открывать меню для перехода на разные экраны или разделы.
+   - ![Навигация через Боковое Меню](public/original-947dbb411ad410cd202be5b63fc1af2e.png)
 
-# OR using Yarn
-yarn android
-```
+4. **Нижняя Навигация**
+   - Содержит нижнюю навигационную панель с иконками и надписями.
+   - Обеспечивает быстрый доступ к основным разделам приложения.
+   - ![Нижняя Навигация](public/original-b2388acf604f379ad7e48b93a2871b4e.png)
 
-### For iOS
+5. **Верхняя Навигация**
+   - Включает верхнюю навигационную панель, часто используемую для разделов внутри одного экрана.
+   - Подходит для организации контента в структуру, похожую на вкладки.
+   - ![Верхняя Навигация](public/original-dca2ae6dc9f06a52a2dc2f69a788255a.png)
 
-```bash
-# using npm
-npm run ios
+6. **Кастомная Навигация**
+   - Исследует решения кастомной навигации, адаптированные к специфическим потребностям.
+   - Демонстрирует креативные и уникальные навигационные шаблоны.
+   - ![Кастомная Навигация](public/original-fbc2e24d7a6fd2b0980c671f28516751.png)
 
-# OR using Yarn
-yarn ios
-```
+## Видео Демонстрация
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+Посмотрите видео демонстрацию, чтобы увидеть эти типы навигации в действии:
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+[![Посмотреть видео](public/original-fbc2e24d7a6fd2b0980c671f28516751.png)](public/original-f340c550de127c2a57a724194098aa20.mp4)
 
-## Step 3: Modifying your App
+Нажмите на миниатюру, чтобы посмотреть демонстрационное видео.
 
-Now that you have successfully run the app, let's modify it.
+## Начало Работы
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+### Необходимые Условия
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+- Node.js
+- npm или yarn
+- React Native CLI
 
-## Congratulations! :tada:
+### Установка
 
-You've successfully run and modified your React Native App. :partying_face:
+1. Клонируйте репозиторий:
 
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+   ```bash
+   git clone https://github.com/HipsterSantos/r-native-modern-navigation.git
+   cd r-native-modern-navigation
